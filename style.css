@@ -15,16 +15,30 @@ body{
 }
 .gradiante{
     height: 100vh;
-    background-image: linear-gradient(90deg, black, rgba(128, 128, 128, 0));
+}
+#display{
+    display: none;
+}
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.498);
+    justify-content: center;
 }
 .menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
+    display: flexbox;
+    justify-content: center;
+}
+#menu-icon{
+    width: 40px;
+    padding: 6px 47vw;
+    border-radius: 10px;
+    cursor: pointer;
+    
 }
 .menu li{
     display: flex;
+    width: 100vw;
+    justify-content: center;
     padding: 0 1%;
     background-color: #00000060;
     border-radius: 20px;
@@ -92,7 +106,7 @@ strong{
 
 }
 .conteudo{
-    margin: 40px auto;
+    margin: 30px auto;
     padding: 15px;
     font-size: 1.4rem;
     
