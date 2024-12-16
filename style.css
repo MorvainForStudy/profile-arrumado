@@ -10,18 +10,19 @@ html, body, div.imagem, div.gradiante{
 }
 body{
     z-index: 99;
-    background-color: rgba(0, 0, 0, 0) ;
+
 
 }
 .gradiante{
     height: 100vh;
+    background-image: linear-gradient(90deg, rgb(0, 0, 0), rgba(255, 255, 255, 0));
 }
 #display{
     display: none;
 }
 nav{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.498);
+    background-color: rgba(0, 0, 0, 0);
     justify-content: center;
 }
 .menu{
@@ -30,7 +31,8 @@ nav{
 }
 #menu-icon{
     width: 40px;
-    padding: 6px 47vw;
+    margin: 0;
+    padding: 6px 49vw;
     border-radius: 10px;
     cursor: pointer;
     
@@ -40,7 +42,7 @@ nav{
     width: 100vw;
     justify-content: center;
     padding: 0 1%;
-    background-color: #00000060;
+    background-color: #00000000;
     border-radius: 20px;
 }
 .menu li:hover{
@@ -72,7 +74,7 @@ li.resp{
 
 }
 header{
-    padding: 0.2% 0.2%;
+    padding: 0;
 }
 
 
@@ -88,7 +90,6 @@ header{
     background-image: url(img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(70, 0, 0, 0.106);
     background-attachment: fixed;
     background-position: center center;
 }
@@ -115,6 +116,7 @@ strong{
 p.texto{
     margin-top: 20px;
     text-indent: 10px;
+    text-shadow: 1px 2px 1px black;
 }
 
 footer{
@@ -129,14 +131,29 @@ footer{
 
 
 @media (min-width: 1200px) {
-    li.resp-n{
-        display: flex;
-    }
     .menu img{
         padding: 0 10px 0 0;
     }
     li.resp{
+        display: flex;
+    }
+    #display a{
+        font-size: 20px;
+    }
+    #menu-icon{
         display: none;
+    }
+    #display{
+        display: flex;
+        justify-content: left;
+        font-weight: 500;
+    }
+    .menu li{
+        width: 100px;
+    }
+    .menu{
+        width: 100vw;
+        margin: 3px 20px;
     }
 
 
