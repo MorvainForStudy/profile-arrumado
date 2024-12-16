@@ -102,8 +102,8 @@ header{
     color: white;
 }
 strong{
-    -webkit-text-stroke: 1px white;
-    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px rgb(82, 102, 232);
+    color: rgba(0, 0, 0, 0);
 
 }
 .conteudo{
