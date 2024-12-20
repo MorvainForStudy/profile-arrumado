@@ -30,11 +30,12 @@ nav{
     justify-content: center;
 }
 #menu-icon{
-    width: 40px;
+    width: 30px;
     margin: 0;
     padding: 6px 49vw;
     border-radius: 10px;
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.231);
     
 }
 .menu li{
